@@ -1,0 +1,532 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Staatliches&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Staatliches, cursive;
+  background: rgb(242, 242, 242);
+  scroll-behavior: smooth;
+}
+
+ol,
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+}
+
+nav.navbar {
+  width: 100%;
+  background: linear-gradient(to left, rgb(54, 155, 161), rgb(49, 78, 98));
+  box-shadow: rgb(221, 221, 221) 1px 1px 20px 0px;
+  padding: 18px 0px;
+  z-index: 999;
+}
+
+.logo img {
+  max-width: 175px;
+  width: 100%;
+}
+
+.nav-link,
+.nav-link:hover {
+  font-family: Staatliches, cursive;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: rgb(237, 237, 237);
+  padding: 0px 20px !important;
+}
+
+.search-bar {
+  width: 300px;
+  padding: 8px 15px 8px 10px;
+  background: rgba(255, 255, 255, 0.247);
+  border-radius: 5px;
+}
+
+.search-bar input {
+  width: 90%;
+  padding: 0px;
+  color: rgb(255, 255, 255);
+  background: transparent;
+  border-top: none;
+  border-bottom: none;
+  border-left: none;
+  border-image: initial;
+  border-right: 2px solid rgb(255, 255, 255);
+}
+
+.search-bar input:focus {
+  outline: 0px;
+}
+
+.search-bar button {
+  text-align: center;
+  background: transparent;
+  border: none;
+}
+
+.navbar-toggler {
+  margin-top: -15px;
+  border: 0px !important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border: 0px !important;
+}
+
+.toggler-icon {
+  display: block;
+  width: 25px;
+  height: 2px;
+  background-color: rgb(255, 255, 255);
+  transition: all 0.2s ease 0s;
+}
+
+.middle-bar {
+  margin: 5px auto;
+}
+
+.navbar-toggler .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+
+.navbar-toggler .middle-bar {
+  opacity: 0;
+}
+
+.navbar-toggler .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+
+.navbar-toggler.collapsed .top-bar {
+  transform: rotate(0deg);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+  transform: rotate(0deg);
+}
+
+.navbar-toggler.collapsed .toggler-icon {
+  background-color: rgb(255, 255, 255);
+}
+
+@media (max-width: 1200px) {
+  .logo img {
+    max-width: 120px;
+    width: 100%;
+  }
+
+  .navbar-toggler {
+    margin: 0px;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+
+  .navbar-nav {
+    padding: 20px 0px;
+  }
+
+  .nav-link {
+    padding: 5px 0px !important;
+  }
+}
+
+.breadcrumb-wrapper {
+  padding-top: 60px;
+}
+
+.breadcrumb-content a {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 18px;
+  color: rgb(40, 76, 100);
+}
+
+.breadcrumb-content a.active {
+  font-weight: 500;
+}
+
+.breadcrumb-content span i {
+  color: rgb(0, 172, 180);
+  padding: 0px 5px;
+}
+
+.blog-details-wrapper {
+  padding-top: 20px;
+}
+
+.blog-details-title h3 {
+  font-size: 30px;
+  color: rgb(40, 76, 100);
+}
+
+#blog-details-blog {
+  background: rgb(255, 255, 255);
+  padding: 20px 20px 50px;
+  margin-top: 10px;
+  box-shadow: rgba(139, 139, 139, 0.267) 0px 0px 15px 3px;
+  border-radius: 20px;
+}
+
+.bdb-card-img img {
+  width: 100%;
+  max-height: 515px;
+  height: 100%;
+}
+
+.bdb-time-tag {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.bdb-time-tag span {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 15px;
+  padding: 5px 10px;
+  margin-left: 10px;
+  color: rgb(255, 255, 255);
+  background: rgba(40, 40, 40, 0.72);
+}
+
+.bdb-cat-tag {
+  padding: 20px 0px;
+}
+
+.bdb-cat-tag span {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  background: rgb(0, 172, 180);
+  padding: 5px 10px;
+  margin-right: 10px;
+}
+
+.bd-card-content-box h3 {
+  font-size: 30px;
+  color: rgb(40, 76, 100);
+}
+
+.bd-card-content-box p {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 20px;
+  line-height: 32px;
+  padding-top: 8px;
+  color: rgb(53, 53, 53);
+}
+
+.bdb-card-filter-buttons {
+  padding-top: 50px;
+}
+
+.bdb-card-filter-buttons a {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 24px;
+  text-decoration: underline;
+  color: rgb(0, 172, 180);
+  padding-left: 20px;
+}
+
+.blog-pagination {
+  padding-top: 60px;
+}
+
+.blog-pagination ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog-pagination ul li {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #284c64;
+  margin: 0 8px;
+  background: #ffffff;
+  box-shadow: rgb(139 139 139 / 3%) 0px 0px 9px 0px;
+}
+
+.blog-pagination ul li.active {
+  color: #fff;
+  background: #00acb4;
+}
+
+.blog-pagination ul li i {
+  color: #00acb4;
+}
+
+.right-blog-card,
+.recommend {
+  background: rgb(255, 255, 255);
+  padding: 20px 20px 30px;
+  margin-top: 10px;
+  box-shadow: rgba(139, 139, 139, 0.267) 0px 0px 15px 3px;
+  border-radius: 20px;
+}
+
+.right-blog-card-img img {
+  width: 100%;
+  min-height: 125px;
+  max-height: 125px;
+  height: 100%;
+  object-fit: cover;
+}
+
+h3.blog-title {
+  font-size: 24px;
+  color: #284c64;
+  padding-top: 20px;
+}
+
+.right-blog-content p {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 16px;
+  color: #353535;
+}
+
+.right-blog-btn {
+  padding-top: 15px;
+}
+
+.right-blog-btn > a {
+  font-size: 20px;
+  padding: 10px 20px;
+  color: #fff;
+  background: #00acb4;
+  border-radius: 5px;
+}
+
+.recommend {
+  margin-top: 15px;
+}
+
+.recommended-wrapper > h3 {
+  font-size: 30px;
+  color: rgb(40, 76, 100);
+}
+
+.recommend-blog-card-img,
+.recommend-blog-card-img img {
+  width: 100%;
+  min-height: 170px;
+  max-height: 170px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.recommend-blog-card-content p {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 16px;
+  color: #353535;
+  padding: 5px 0;
+}
+
+.recommend-blog-btn a {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 16px;
+  text-decoration: underline;
+  color: #00acb4;
+}
+
+.recommend-post {
+  padding: 20px 0 0;
+  border-top: 2px dotted #d6d6d6;
+}
+
+.recommend-post-img {
+  width: 250px;
+  margin-right: 20px;
+}
+
+.recommend-post-content h4 {
+  font-size: 20px;
+  color: #284c64;
+}
+
+.recommend-post-content p {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #353535;
+  margin-bottom: 0;
+}
+
+.categories-wrapper h3 {
+  font-size: 30px;
+  color: rgb(40, 76, 100);
+}
+
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  background: rgb(255, 255, 255);
+  padding: 30px;
+  margin-top: 20px;
+  box-shadow: rgba(139, 139, 139, 0.267) 0px 0px 15px 3px;
+  border-radius: 20px;
+}
+
+.categories-tag {
+  display: block;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  background: rgb(0, 172, 180);
+  padding: 5px 10px;
+  margin: 5px 10px 5px 0;
+}
+
+/* Footer Part CSS Start */
+
+.footer-wrapper {
+  background: #151515;
+  margin-top: 200px;
+  padding: 80px 0;
+}
+
+.footer-title {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.footer-title h2 {
+  font-size: 48px;
+  color: #ffffff;
+}
+
+.footer-regi-input {
+  max-width: 400px;
+  width: 100%;
+}
+
+.footer-regi-input input {
+  width: 100%;
+  color: #fff;
+  background: #d9d9d947;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.footer-regi-input input:focus {
+  outline: 0;
+}
+
+.footer-check-input label {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 18px;
+  text-decoration: underline;
+  color: #ffffffab;
+  padding-left: 10px;
+}
+
+.regi-btn input {
+  font-size: 18px;
+  color: #fff;
+  background: #00acb4;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+}
+
+.footer-regi-form ::placeholder {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: #ffffff67;
+}
+
+.footer-content h4 {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: #ffffffc2;
+  margin-bottom: 20px;
+}
+
+.footer-copyright {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.footer-copyright p {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff67;
+}
+
+/* Footer Part CSS End */
+
+/* ==========***===========
+Article Page CSS
+==========***=========== */
+
+.read-article-btn a {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 18px;
+  text-decoration: underline;
+  color: #00acb4;
+}
+
+.blog-card {
+  background: rgb(255, 255, 255);
+  padding: 20px 20px 30px;
+  margin-top: 10px;
+  box-shadow: rgba(139, 139, 139, 0.267) 0px 0px 15px 3px;
+  border-radius: 20px;
+}
+
+.blog-card-img img {
+  max-width: 100%;
+  width: 100%;
+  min-height: 270px;
+  max-height: 300px;
+  height: 100%;
+}
+
+.blog-card-content h3 {
+  font-size: 28px;
+  color: #284c64;
+  padding: 7px 0;
+}
+
+.blog-card-content p {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 18px;
+  color: #353535;
+}

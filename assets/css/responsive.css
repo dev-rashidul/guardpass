@@ -1,0 +1,102 @@
+/* Min Width 1200px and Max Width 1399px */
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+}
+
+/* Min Width 992px and Max Width 1199px */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/* Min Width 768px and Max Width 991px */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .blog-details-title h3,
+  .bd-card-content-box h3,
+  .recommended-wrapper h3,
+  .categories-wrapper h3 {
+    font-size: 30px;
+  }
+
+  .bd-card-content-box p,
+  .footer-content h4,
+  .footer-copyright p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .bdb-card-filter-buttons a,
+  .recommend-post-content h4 {
+    font-size: 20px;
+  }
+
+  .right-blog-card,
+  .footer-content {
+    margin-top: 50px;
+  }
+
+  .footer-wrapper {
+    margin-top: 100px;
+  }
+
+  .footer-title h2 {
+    font-size: 36px;
+  }
+
+  .footer-copyright {
+    padding-top: 50px;
+  }
+
+  .blog-card-content h3 {
+    font-size: 24px;
+  }
+}
+
+/* Min Width 300px and Max Width 767px */
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .blog-details-title h3,
+  .bd-card-content-box h3,
+  .recommended-wrapper h3,
+  .categories-wrapper h3 {
+    font-size: 24px;
+  }
+
+  .bd-card-content-box p,
+  .footer-content h4,
+  .footer-copyright p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .bdb-card-filter-buttons a,
+  .recommend-post-content h4 {
+    font-size: 18px;
+  }
+
+  .right-blog-card,
+  .footer-content {
+    margin-top: 50px;
+  }
+
+  .footer-wrapper {
+    margin-top: 100px;
+  }
+
+  .footer-title h2 {
+    font-size: 30px;
+  }
+
+  .footer-copyright {
+    padding-top: 50px;
+  }
+
+  .blog-card-img img {
+    min-height: 220px;
+    max-height: 220px;
+  }
+
+  .blog-card-content h3 {
+    font-size: 24px;
+  }
+}

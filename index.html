@@ -3,13 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>GuardPass - Landing Page</title>
 
     <!-- Font Awesome CDN -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     />
+
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
@@ -21,8 +25,532 @@
     <link rel="stylesheet" href="assets/css/responsive.css" />
   </head>
   <body>
+    <!-- Header Part HTML Start -->
+
+    <header>
+      <!-- Header Section HTML Start -->
+
+      <section id="Header">
+        <nav class="main-nav navbar navbar-expand-xl">
+          <div class="container">
+            <a class="logo" href="#"
+              ><img src="assets/images/logo.png" alt="logo"
+            /></a>
+            <button
+              class="navbar-toggler collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="toggler-icon top-bar"></span>
+              <span class="toggler-icon middle-bar"></span>
+              <span class="toggler-icon bottom-bar"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav pl-md-5 mx-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Welcome</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="prices.html">Prices</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="facts.html">Facts</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="blog.html">Blog</a>
+                </li>
+              </ul>
+              <div class="navbar-nav ml-auto">
+                <div class="nav-buttons">
+                  <a class="sign-in-btn" href="#">sign in</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </section>
+
+      <!-- Header Section HTML End -->
+
+      <!-- Hero Section HTML Start -->
+
+      <section id="Hero">
+        <div class="hero-wrapper position-relative">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-lg-6">
+                <div class="hero-content">
+                  <h2>When foresight meets care</h2>
+                  <p>
+                    Preserve your digital assets and simplify the journey for
+                    those you hold dear, ensuring your control over your
+                    passcodes.
+                  </p>
+                  <div class="hero-btn">
+                    <a href="#">join guardpass</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 pt-lg-4">
+                <div class="hero-img float-lg-end">
+                  <img src="assets/images/hero-img.png" alt="hero-img" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="facts-hero-bg">
+            <img src="assets/images/hero-bg.png" alt="hero-bg" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Hero Section HTML End -->
+    </header>
+
+    <!-- Main Part HTML Start -->
+
+    <main>
+      <!-- Safety Section HTML Start -->
+
+      <section id="Safety">
+        <div class="safety-wrapper">
+          <div class="container">
+            <div class="safety-top">
+              <h2>
+                <span>Your passwords deserve Postmortem Heroics,</span> <br />
+                and GuardPass is here to serve that purpose!
+              </h2>
+            </div>
+            <div class="row">
+              <div class="col-md-6 col-lg-4">
+                <div class="safety-card">
+                  <div class="safety-card-icon position-relative">
+                    <img
+                      src="assets/images/safety-icon.png"
+                      alt="safety-icon"
+                    />
+                  </div>
+                  <div class="safety-card-content">
+                    <h3>Safety First</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labovre.
+                    </p>
+                    <div class="safety-card-btn">
+                      <a href="#"
+                        ><i class="fa-solid fa-arrow-right-long"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4 pt-4 pt-md-0">
+                <div class="safety-card">
+                  <div class="safety-card-icon position-relative">
+                    <img
+                      src="assets/images/community-icon.png"
+                      alt="community-icon"
+                    />
+                  </div>
+                  <div class="safety-card-content">
+                    <h3>Community Driven</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labovre.
+                    </p>
+                    <div class="safety-card-btn">
+                      <a href="#"
+                        ><i class="fa-solid fa-arrow-right-long"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4 pt-4 pt-lg-0">
+                <div class="safety-card">
+                  <div class="safety-card-icon position-relative">
+                    <img src="assets/images/peach-icon.png" alt="peach-icon" />
+                  </div>
+                  <div class="safety-card-content">
+                    <h3>Peace of Mind</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labovre.
+                    </p>
+                    <div class="safety-card-btn">
+                      <a href="#"
+                        ><i class="fa-solid fa-arrow-right-long"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Safety Section HTML End -->
+
+      <!-- Testimonial Section HTML Start -->
+
+      <section id="Testimonial">
+        <div class="testimonial-wrapper">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-lg-6">
+                <div class="testimonial-img">
+                  <img
+                    src="assets/images/testimonial-img.png"
+                    alt="testimonial-img"
+                  />
+                </div>
+              </div>
+              <div class="col-lg-6 ps-lg-5 pt-5 pt-lg-0">
+                <div class="testimonial-content">
+                  <div class="testimonial-slider owl-carousel owl-theme">
+                    <div class="testimonial-slide item">
+                      <h2>IN CASE OF THE UNEXPECTED</h2>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing
+                        elit. Aenean commodo ligula eget dolor. Aenean massa.
+                        Cum sociis natoque penatibus et magnis dis parturient
+                        montes, nascetur ridiculus mus. Donec quam felis,
+                        ultricies nec, pellentesque eu, pretium quis, sem. Nulla
+                        consequat massa quis enim. Donec pede justo, fringilla
+                        vel, aliquet nec, vulputate eget, arcu. In enim justo,
+                        rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam
+                        dictum felis eu pede mollis pretium. Integer tincidunt.
+                        Cras dapibus. Vivamus elementum semper nisi. Aenean
+                        vulputate eleifend tellus. Aenean leo ligula, porttitor
+                        eu, consequat vitae, eleifend ac, enim. Aliquam lorem
+                        ante, dapibus in, viverra quis, feugiat a, tellus.
+                        Phasellus viverra nulla ut metus varius laoreet. Quisque
+                        rutrum. Aenean imperdiet. Etiam ultricies nisi vel
+                        augue. Curabitur ullamcorper ultricies nisi. Nam eget
+                        dui. Etiam rhoncus. Maecenas tempus, tellus eget
+                        condimentum rhoncus, sem quam semper libero, sit amet
+                        adipiscing sem neque sed ipsum. Nam quam nunc, blandit
+                        vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec
+                        odio et ante tincidunt tempus. Donec vitae sapien ut
+                        libero venenatis faucibus. Nullam quis ante. Etiam sit
+                        amet orci eget eros faucibus tincidunt. Duis leo. Sed
+                        fringilla mauris sit amet nibh.
+                      </p>
+                    </div>
+                    <div class="testimonial-slide item">
+                      <h2>IN CASE OF THE UNEXPECTED</h2>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing
+                        elit. Aenean commodo ligula eget dolor. Aenean massa.
+                        Cum sociis natoque penatibus et magnis dis parturient
+                        montes, nascetur ridiculus mus. Donec quam felis,
+                        ultricies nec, pellentesque eu, pretium quis, sem. Nulla
+                        consequat massa quis enim. Donec pede justo, fringilla
+                        vel, aliquet nec, vulputate eget, arcu. In enim justo,
+                        rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam
+                        dictum felis eu pede mollis pretium. Integer tincidunt.
+                        Cras dapibus. Vivamus elementum semper nisi. Aenean
+                        vulputate eleifend tellus. Aenean leo ligula, porttitor
+                        eu, consequat vitae, eleifend ac, enim. Aliquam lorem
+                        ante, dapibus in, viverra quis, feugiat a, tellus.
+                        Phasellus viverra nulla ut metus varius laoreet. Quisque
+                        rutrum. Aenean imperdiet. Etiam ultricies nisi vel
+                        augue. Curabitur ullamcorper ultricies nisi. Nam eget
+                        dui. Etiam rhoncus. Maecenas tempus, tellus eget
+                        condimentum rhoncus, sem quam semper libero, sit amet
+                        adipiscing sem neque sed ipsum. Nam quam nunc, blandit
+                        vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec
+                        odio et ante tincidunt tempus. Donec vitae sapien ut
+                        libero venenatis faucibus. Nullam quis ante. Etiam sit
+                        amet orci eget eros faucibus tincidunt. Duis leo. Sed
+                        fringilla mauris sit amet nibh.
+                      </p>
+                    </div>
+                    <div class="testimonial-slide item">
+                      <h2>IN CASE OF THE UNEXPECTED</h2>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing
+                        elit. Aenean commodo ligula eget dolor. Aenean massa.
+                        Cum sociis natoque penatibus et magnis dis parturient
+                        montes, nascetur ridiculus mus. Donec quam felis,
+                        ultricies nec, pellentesque eu, pretium quis, sem. Nulla
+                        consequat massa quis enim. Donec pede justo, fringilla
+                        vel, aliquet nec, vulputate eget, arcu. In enim justo,
+                        rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam
+                        dictum felis eu pede mollis pretium. Integer tincidunt.
+                        Cras dapibus. Vivamus elementum semper nisi. Aenean
+                        vulputate eleifend tellus. Aenean leo ligula, porttitor
+                        eu, consequat vitae, eleifend ac, enim. Aliquam lorem
+                        ante, dapibus in, viverra quis, feugiat a, tellus.
+                        Phasellus viverra nulla ut metus varius laoreet. Quisque
+                        rutrum. Aenean imperdiet. Etiam ultricies nisi vel
+                        augue. Curabitur ullamcorper ultricies nisi. Nam eget
+                        dui. Etiam rhoncus. Maecenas tempus, tellus eget
+                        condimentum rhoncus, sem quam semper libero, sit amet
+                        adipiscing sem neque sed ipsum. Nam quam nunc, blandit
+                        vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec
+                        odio et ante tincidunt tempus. Donec vitae sapien ut
+                        libero venenatis faucibus. Nullam quis ante. Etiam sit
+                        amet orci eget eros faucibus tincidunt. Duis leo. Sed
+                        fringilla mauris sit amet nibh.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonial Section HTML End -->
+
+      <!-- Curious Section HTML Start -->
+
+      <section id="Curious">
+        <div class="curious-wrapper">
+          <div class="container">
+            <div class="curious-title">
+              <h2>Curious Minds Inquire</h2>
+            </div>
+            <div class="row">
+              <div class="col-lg-6 pe-lg-4">
+                <div class="curious-card">
+                  <div class="curious-card-top d-flex align-items-center pb-3">
+                    <div class="curious-card-icon">
+                      <img
+                        src="assets/images/human-icon.png"
+                        alt="human-icon"
+                      />
+                    </div>
+                    <div class="curious-card-title">
+                      <h3>Who will receive my keys?</h3>
+                    </div>
+                  </div>
+                  <p>
+                    Your trusted circle of friends, handpicked by you to hold
+                    the keys to your digital afterlife.
+                  </p>
+                  <div class="curious-card-btn float-end pt-4">
+                    <a href="#"
+                      ><i class="fa-solid fa-plus-circle"></i> View More</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 ps-lg-4">
+                <div class="curious-card">
+                  <div class="curious-card-top d-flex align-items-center pb-3">
+                    <div class="curious-card-icon">
+                      <img src="assets/images/key-icon.png" alt="key-icon" />
+                    </div>
+                    <div class="curious-card-title">
+                      <h3>How will keys be given?</h3>
+                    </div>
+                  </div>
+                  <p>
+                    Each friend receives a unique key, ensuring maximum
+                    security.
+                  </p>
+                  <div class="curious-card-btn float-end pt-4">
+                    <a href="#"
+                      ><i class="fa-solid fa-plus-circle"></i> View More</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 pe-lg-4">
+                <div class="curious-card">
+                  <div class="curious-card-top d-flex align-items-center pb-3">
+                    <div class="curious-card-icon">
+                      <img
+                        src="assets/images/question-icon.png"
+                        alt="question-icon"
+                      />
+                    </div>
+                    <div class="curious-card-title">
+                      <h3>What happens when I pass?</h3>
+                    </div>
+                  </div>
+                  <p>
+                    Upon confirmation, the recovery process begins, and your
+                    passwords are safely transferred to the people you’ve
+                    designated.
+                  </p>
+                  <div class="curious-card-btn float-end pt-4">
+                    <a href="#"
+                      ><i class="fa-solid fa-plus-circle"></i> View More</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 ps-lg-4">
+                <div class="curious-card">
+                  <div class="curious-card-top d-flex align-items-center pb-3">
+                    <div class="curious-card-icon">
+                      <img
+                        src="assets/images/password-safe-icon.png"
+                        alt="password-safe-icon"
+                      />
+                    </div>
+                    <div class="curious-card-title">
+                      <h3>Are my passwords safe?</h3>
+                    </div>
+                  </div>
+                  <p>
+                    Absolutely! Our cutting-edge encryption ensures your
+                    passwords remain secure while waiting to be unlocked by your
+                    friends.
+                  </p>
+                  <div class="curious-card-btn float-end pt-4">
+                    <a href="#"
+                      ><i class="fa-solid fa-plus-circle"></i> View More</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Curious Section HTML End -->
+
+      <!-- Pricing Section HTML Start -->
+
+      <section id="Pricing">
+        <div class="pricing-wrapper">
+          <div class="container">
+            <div class="pricing-title text-center">
+              <h2>our prices</h2>
+            </div>
+            <div class="row pricing-container">
+              <div class="col-lg-6">
+                <div class="pricing-content">
+                  <h3>INICIAL PRICE</h3>
+                  <h1>$7.99</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor.
+                  </p>
+                  <div class="hero-btn">
+                    <a href="#">join guardpass</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 pt-5 pt-lg-0">
+                <div class="pricing-features">
+                  <h3>INICIAL PRICE INCLUDES</h3>
+                  <ul>
+                    <li>
+                      <img
+                        src="assets/images/check-icon.png"
+                        alt="check-icon"
+                      />
+                      Basic Protection
+                    </li>
+                    <li>
+                      <img
+                        src="assets/images/check-icon.png"
+                        alt="check-icon"
+                      />
+                      2 Keyholders
+                    </li>
+                    <li>
+                      <img
+                        src="assets/images/check-icon.png"
+                        alt="check-icon"
+                      />
+                      Email Support
+                    </li>
+                    <li>
+                      <img
+                        src="assets/images/check-icon.png"
+                        alt="check-icon"
+                      />
+                      Safe Storage
+                    </li>
+                    <li>
+                      <img
+                        src="assets/images/check-icon.png"
+                        alt="check-icon"
+                      />
+                      Loren Impsum
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Pricing Section HTML End -->
+    </main>
+
+    <!-- Main Part HTML End -->
+
+    <!-- Footer Part HTML Start -->
+
+    <footer id="Footer">
+      <div class="footer-wrapper mt-0">
+        <div class="container">
+          <div class="footer-title">
+            <h2>Join GuardPass</h2>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="footer-register">
+                <form>
+                  <div class="footer-regi-form">
+                    <div class="footer-regi-input mb-4">
+                      <input type="email" placeholder="Email:" required />
+                    </div>
+                    <div
+                      class="footer-check-input d-flex align-items-center mb-5"
+                    >
+                      <input type="checkbox" required />
+                      <label>I agree to receive Guardpass News</label>
+                    </div>
+                    <div class="regi-btn">
+                      <input type="submit" value="register now" />
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="footer-content">
+                <h4>
+                  It’s time to protect your precious passcodes and prepare for
+                  the digital frontier beyond this mortal realm.
+                </h4>
+                <h4>
+                  We are not ready yet, but we will be. Don't want to miss a
+                  good discount? Join the waitlist!
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <p>GuardPass Inc. 2023, All Rights Reserved</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Footer Part HTML End -->
+
     <!-- JQuery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+    <!-- Owl Carousel JavaScript -->
+    <script src="assets/js/owl.carousel.min.js"></script>
 
     <!-- Bootstrap JavaScript -->
     <script src="assets/js/bootstrap.bundle.min.js"></script>

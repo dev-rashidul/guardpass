@@ -38,6 +38,15 @@ nav.navbar {
   z-index: 999;
 }
 
+.main-nav {
+  background: linear-gradient(
+    45deg,
+    rgb(40, 75, 99),
+    rgb(0, 172, 180)
+  ) !important;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 2px 12px 0px !important;
+}
+
 .logo img {
   max-width: 175px;
   width: 100%;
@@ -51,6 +60,10 @@ nav.navbar {
   text-transform: uppercase;
   color: rgb(237, 237, 237);
   padding: 0px 20px !important;
+}
+
+.nav-link.active {
+  color: rgb(1, 194, 203) !important;
 }
 
 .search-bar {
@@ -80,6 +93,14 @@ nav.navbar {
   text-align: center;
   background: transparent;
   border: none;
+}
+
+.sign-in-btn {
+  padding: 10px 35px;
+  color: rgb(255, 255, 255);
+  background: rgb(40, 76, 100);
+  box-shadow: rgba(40, 76, 100, 0.68) -1px 2px 7px 0px;
+  border-radius: 5px;
 }
 
 .navbar-toggler {
@@ -274,19 +295,19 @@ nav.navbar {
   font-family: "Space Grotesk", sans-serif;
   font-size: 20px;
   font-weight: 500;
-  color: #284c64;
-  margin: 0 8px;
-  background: #ffffff;
-  box-shadow: rgb(139 139 139 / 3%) 0px 0px 9px 0px;
+  color: rgb(40, 76, 100);
+  margin: 0px 8px;
+  background: rgb(255, 255, 255);
+  box-shadow: rgba(139, 139, 139, 0.03) 0px 0px 9px 0px;
 }
 
 .blog-pagination ul li.active {
-  color: #fff;
-  background: #00acb4;
+  color: rgb(255, 255, 255);
+  background: rgb(0, 172, 180);
 }
 
 .blog-pagination ul li i {
-  color: #00acb4;
+  color: rgb(0, 172, 180);
 }
 
 .right-blog-card,
@@ -308,14 +329,14 @@ nav.navbar {
 
 h3.blog-title {
   font-size: 24px;
-  color: #284c64;
+  color: rgb(40, 76, 100);
   padding-top: 20px;
 }
 
 .right-blog-content p {
   font-family: "Space Grotesk", sans-serif;
   font-size: 16px;
-  color: #353535;
+  color: rgb(53, 53, 53);
 }
 
 .right-blog-btn {
@@ -325,8 +346,8 @@ h3.blog-title {
 .right-blog-btn > a {
   font-size: 20px;
   padding: 10px 20px;
-  color: #fff;
-  background: #00acb4;
+  color: rgb(255, 255, 255);
+  background: rgb(0, 172, 180);
   border-radius: 5px;
 }
 
@@ -351,20 +372,20 @@ h3.blog-title {
 .recommend-blog-card-content p {
   font-family: "Space Grotesk", sans-serif;
   font-size: 16px;
-  color: #353535;
-  padding: 5px 0;
+  color: rgb(53, 53, 53);
+  padding: 5px 0px;
 }
 
 .recommend-blog-btn a {
   font-family: "Space Grotesk", sans-serif;
   font-size: 16px;
   text-decoration: underline;
-  color: #00acb4;
+  color: rgb(0, 172, 180);
 }
 
 .recommend-post {
-  padding: 20px 0 0;
-  border-top: 2px dotted #d6d6d6;
+  padding: 20px 0px 0px;
+  border-top: 2px dotted rgb(214, 214, 214);
 }
 
 .recommend-post-img {
@@ -374,15 +395,15 @@ h3.blog-title {
 
 .recommend-post-content h4 {
   font-size: 20px;
-  color: #284c64;
+  color: rgb(40, 76, 100);
 }
 
 .recommend-post-content p {
   font-family: "Space Grotesk", sans-serif;
   font-size: 14px;
   font-weight: 300;
-  color: #353535;
-  margin-bottom: 0;
+  color: rgb(53, 53, 53);
+  margin-bottom: 0px;
 }
 
 .categories-wrapper h3 {
@@ -407,15 +428,13 @@ h3.blog-title {
   color: rgb(255, 255, 255);
   background: rgb(0, 172, 180);
   padding: 5px 10px;
-  margin: 5px 10px 5px 0;
+  margin: 5px 10px 5px 0px;
 }
 
-/* Footer Part CSS Start */
-
 .footer-wrapper {
-  background: #151515;
+  background: rgb(21, 21, 21);
   margin-top: 200px;
-  padding: 80px 0;
+  padding: 80px 0px;
 }
 
 .footer-title {
@@ -425,7 +444,7 @@ h3.blog-title {
 
 .footer-title h2 {
   font-size: 48px;
-  color: #ffffff;
+  color: rgb(255, 255, 255);
 }
 
 .footer-regi-input {
@@ -435,29 +454,29 @@ h3.blog-title {
 
 .footer-regi-input input {
   width: 100%;
-  color: #fff;
-  background: #d9d9d947;
+  color: rgb(255, 255, 255);
+  background: rgba(217, 217, 217, 0.28);
   border: none;
   padding: 10px 15px;
   border-radius: 5px;
 }
 
 .footer-regi-input input:focus {
-  outline: 0;
+  outline: 0px;
 }
 
 .footer-check-input label {
   font-family: "Space Grotesk", sans-serif;
   font-size: 18px;
   text-decoration: underline;
-  color: #ffffffab;
+  color: rgba(255, 255, 255, 0.67);
   padding-left: 10px;
 }
 
 .regi-btn input {
   font-size: 18px;
-  color: #fff;
-  background: #00acb4;
+  color: rgb(255, 255, 255);
+  background: rgb(0, 172, 180);
   padding: 12px 25px;
   border: none;
   border-radius: 5px;
@@ -467,14 +486,14 @@ h3.blog-title {
   font-family: "Space Grotesk", sans-serif;
   font-size: 18px;
   font-weight: 300;
-  color: #ffffff67;
+  color: rgba(255, 255, 255, 0.404);
 }
 
 .footer-content h4 {
   font-family: "Space Grotesk", sans-serif;
   font-size: 20px;
   font-weight: 300;
-  color: #ffffffc2;
+  color: rgba(255, 255, 255, 0.76);
   margin-bottom: 20px;
 }
 
@@ -487,20 +506,14 @@ h3.blog-title {
   font-family: "Space Grotesk", sans-serif;
   font-size: 18px;
   font-weight: 500;
-  color: #ffffff67;
+  color: rgba(255, 255, 255, 0.404);
 }
-
-/* Footer Part CSS End */
-
-/* ==========***===========
-Article Page CSS
-==========***=========== */
 
 .read-article-btn a {
   font-family: "Space Grotesk", sans-serif;
   font-size: 18px;
   text-decoration: underline;
-  color: #00acb4;
+  color: rgb(0, 172, 180);
 }
 
 .blog-card {
@@ -521,12 +534,380 @@ Article Page CSS
 
 .blog-card-content h3 {
   font-size: 28px;
-  color: #284c64;
-  padding: 7px 0;
+  color: rgb(40, 76, 100);
+  padding: 7px 0px;
 }
 
 .blog-card-content p {
   font-family: "Space Grotesk", sans-serif;
   font-size: 18px;
+  color: rgb(53, 53, 53);
+}
+
+.hero-wrapper {
+  background: linear-gradient(to right, rgb(40, 75, 99), rgb(0, 172, 180));
+  padding: 40px 0;
+}
+
+.facts-hero-bg {
+  position: absolute;
+  bottom: -25px;
+}
+
+.hero-content {
+  max-width: 500px;
+}
+
+.hero-content h2 {
+  font-size: 85px;
+  color: rgb(255, 255, 255);
+}
+
+.hero-content p {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+}
+
+.help-wrapper {
+  padding: 100px 0px;
+}
+
+.fatcs-help-top {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.fatcs-help-top h2 {
+  font-size: 56px;
+  color: rgb(40, 76, 100);
+}
+
+.help-search-form-field {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(255, 255, 255);
+  margin-top: 25px;
+  border: 1px solid rgb(213, 213, 213);
+  border-radius: 10px;
+}
+
+.help-search-form-field input {
+  width: 90%;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+}
+
+.help-search-form-field input:focus {
+  outline: 0px;
+}
+
+.help-search-form-field i {
+  color: rgb(58, 174, 177);
+  padding-left: 60px;
+}
+
+.help-search-form ::placeholder {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(151, 151, 151);
+}
+
+.facts-accordion {
+  padding-top: 150px;
+}
+
+.facts-accordion h3 {
+  font-size: 30px;
+  color: rgb(53, 53, 53);
+}
+
+.accordion {
+  padding-top: 10px;
+}
+
+.accordion-button {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(56, 56, 56) !important;
+  padding: 20px 20px 20px 50px !important;
+  background: none !important;
+}
+
+.accordion-button:focus {
+  background: none;
+  box-shadow: none;
+}
+
+.accordion-body {
+  padding-left: 50px;
+}
+
+.accordion-body p {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 16px;
+  margin: 0px;
+}
+
+/* ==========***==========
+Home Page CSS
+==========***========== */
+
+.hero-wrapper {
+  background: linear-gradient(to right, rgb(40, 75, 99), rgb(0, 172, 180));
+  padding: 40px 0;
+}
+
+.facts-hero-bg {
+  position: absolute;
+  bottom: -25px;
+}
+
+.hero-content {
+  max-width: 500px;
+}
+
+.hero-content h2 {
+  font-size: 85px;
+  color: rgb(255, 255, 255);
+}
+
+.hero-content p {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+}
+
+.hero-btn {
+  padding-top: 30px;
+}
+
+.hero-btn a {
+  font-size: 20px;
+  padding: 15px 30px;
+  color: rgb(255, 255, 255);
+  background: rgb(0, 172, 180);
+  box-shadow: rgba(40, 76, 100, 0.68) -1px 2px 7px;
+  border-radius: 5px;
+}
+
+/* Safety Section CSS Start */
+
+.safety-wrapper {
+  position: relative;
+  padding-top: 100px;
+  margin-bottom: -60px;
+}
+
+.safety-top {
+  padding-bottom: 80px;
+}
+
+.safety-top h2 {
+  font-size: 56px;
+  text-align: center;
   color: #353535;
 }
+
+.safety-top h2 span {
+  color: #284c64;
+}
+
+.safety-card {
+  text-align: center;
+  padding: 40px 30px;
+  background: #ffffff;
+  box-shadow: 0px 4px 14px 1px #0000000d;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.safety-card-icon {
+  padding-bottom: 20px;
+}
+
+.safety-card-icon img {
+  max-width: 120px;
+  height: 100px;
+}
+
+.safety-card-icon::after {
+  position: absolute;
+  content: "";
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 70%;
+  height: 2px;
+  background: #00acb4;
+}
+
+.safety-card-content {
+  padding-top: 20px;
+}
+
+.safety-card-content h3 {
+  font-size: 30px;
+  color: #284c64;
+  margin-bottom: 15px;
+}
+
+.safety-card-content p {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 18px;
+  color: #353535;
+  margin-bottom: 20px;
+}
+
+.safety-card-btn a i {
+  color: #00acb4;
+}
+
+/* Safety Section CSS End */
+
+/* Testimonial Section CSS Start */
+
+.testimonial-wrapper {
+  background: linear-gradient(
+    300deg,
+    rgb(40, 75, 99) 60%,
+    #2f6a79,
+    rgb(0, 172, 180)
+  );
+  padding: 250px 0 100px;
+}
+
+.testimonial-slide h2 {
+  font-size: 48px;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+
+.testimonial-slide p {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 18px;
+  color: #ededed;
+  margin-bottom: 30px;
+}
+
+.owl-dots {
+  position: absolute;
+  left: 0;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  background: transparent !important;
+  border: 2px solid #d8d8d8;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+  background: #ffffff !important;
+  border: 2px solid #d8d8d8;
+}
+
+/* Testimonial Section CSS End */
+
+/* Curious Section CSS Start */
+
+.curious-wrapper {
+  padding: 80px 0;
+  background: #ffffff;
+}
+
+.curious-title {
+  text-align: center;
+}
+
+.curious-title h2 {
+  font-size: 56px;
+  color: #284c64;
+}
+
+.curious-card {
+  padding-top: 60px;
+}
+
+.curious-card-icon img {
+  max-width: 60px;
+  height: 50px;
+}
+
+.curious-card-title h3 {
+  font-size: 30px;
+  color: #284b63;
+  padding-left: 15px;
+}
+
+.curious-card p {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 18px;
+  color: #353535;
+}
+
+.curious-card-btn a {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 20px;
+  color: #00acb4;
+}
+
+/* Curious Section CSS End */
+
+/* Pricing Section CSS Start */
+
+.pricing-wrapper {
+  background: linear-gradient(39deg, rgb(40, 75, 99), rgb(4, 126, 133));
+  padding: 100px 0;
+}
+
+.pricing-title h2 {
+  font-size: 56px;
+  color: #ffffff;
+}
+
+.pricing-container {
+  background: #ffffff;
+  box-shadow: -3px 7px 13px 4px #06060636;
+  margin-top: 60px;
+  padding: 50px 60px;
+  border-radius: 20px;
+}
+
+.pricing-content h3,
+.pricing-features h3 {
+  font-size: 30px;
+  color: #353535;
+}
+
+.pricing-content h1 {
+  font-size: 120px;
+  color: #284b63;
+}
+
+.pricing-content p {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 18px;
+  color: #353535;
+  margin-bottom: 5px;
+}
+
+.pricing-features ul li {
+  display: flex;
+  align-items: center;
+  padding-top: 12px;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #353535;
+}
+
+.pricing-features ul li img {
+  max-width: 20px;
+  margin-right: 10px;
+}
+
+/* Pricing Section CSS Start */

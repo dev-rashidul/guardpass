@@ -1,11 +1,35 @@
 /* Min Width 1200px and Max Width 1399px */
 
 @media (min-width: 1200px) and (max-width: 1399px) {
+  .facts-hero-bg {
+    bottom: -5px;
+  }
 }
 
 /* Min Width 992px and Max Width 1199px */
 
 @media (min-width: 992px) and (max-width: 1199px) {
+  .hero-content h2 {
+    font-size: 74px;
+  }
+
+  .facts-hero-bg {
+    bottom: 0px;
+  }
+
+  .facts-hero-content h2 {
+    font-size: 64px;
+  }
+
+  .fatcs-help-top h2 {
+    font-size: 48px;
+  }
+
+  .safety-top h2,
+  .curious-title h2,
+  .pricing-title h2 {
+    font-size: 48px;
+  }
 }
 
 /* Min Width 768px and Max Width 991px */
@@ -49,6 +73,38 @@
 
   .blog-card-content h3 {
     font-size: 24px;
+  }
+
+  .hero-wrapper {
+    padding-top: 60px;
+    padding-bottom: 0;
+  }
+
+  .facts-hero-bg {
+    bottom: -5px;
+  }
+
+  .hero-content h2 {
+    font-size: 56px;
+  }
+
+  .fatcs-help-top h2 {
+    font-size: 40px;
+  }
+
+  .hero-img {
+    padding-top: 50px;
+  }
+
+  .safety-top h2,
+  .curious-title h2,
+  .pricing-title h2,
+  .testimonial-slide h2 {
+    font-size: 40px;
+  }
+
+  .pricing-content h1 {
+    font-size: 96px;
   }
 }
 
@@ -98,5 +154,82 @@
 
   .blog-card-content h3 {
     font-size: 24px;
+  }
+
+  .hero-wrapper {
+    padding-top: 60px;
+    padding-bottom: 0;
+  }
+
+  .facts-hero-bg {
+    bottom: -5px;
+  }
+
+  .hero-content h2 {
+    font-size: 48px;
+  }
+
+  .fatcs-help-top h2 {
+    font-size: 36px;
+  }
+
+  .hero-content p {
+    font-size: 18px;
+  }
+
+  .hero-img {
+    padding-top: 50px;
+  }
+
+  .facts-accordion {
+    padding-top: 80px;
+  }
+
+  .facts-accordion h3 {
+    font-size: 24px;
+  }
+
+  .accordion-button,
+  .accordion-body {
+    font-size: 16px;
+    padding-left: 20px !important;
+  }
+
+  .safety-top h2,
+  .curious-title h2,
+  .pricing-title h2,
+  .testimonial-slide h2 {
+    font-size: 30px;
+  }
+
+  .pricing-content h1 {
+    font-size: 72px;
+  }
+
+  .safety-card-content h3,
+  .curious-card-title h3,
+  .pricing-content h3,
+  .pricing-features h3 {
+    font-size: 24px;
+  }
+
+  .safety-card-content p,
+  .testimonial-slide p,
+  .curious-card p,
+  .pricing-content p {
+    font-size: 16px;
+  }
+
+  .curious-card-btn a,
+  .pricing-features ul li {
+    font-size: 18px;
+  }
+
+  .testimonial-wrapper {
+    padding: 150px 0 100px;
+  }
+
+  .pricing-container {
+    padding: 40px 10px;
   }
 }

@@ -260,16 +260,6 @@
     right: 40px;
   }
 
-  .owl-prev i,
-  .owl-next i {
-    font-size: 20px;
-    color: #fff;
-  }
-
-  .owl-theme .owl-nav [class*="owl-"]:hover {
-    background: none;
-  }
-
   .pricing-container {
     padding: 40px 10px;
     margin: 50px 10px 0;

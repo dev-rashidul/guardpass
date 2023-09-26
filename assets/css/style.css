@@ -802,6 +802,40 @@ Home Page CSS
   left: 53%;
 }
 
+.owl-nav {
+  width: 100%;
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+  display: block !important;
+}
+
+.owl-prev {
+  position: absolute;
+  left: -50px;
+}
+
+.owl-next {
+  position: absolute;
+  right: -50px;
+}
+
+.owl-prev i,
+.owl-next i {
+  font-size: 20px;
+  color: #fff;
+}
+
+.safety-slider .owl-prev i,
+.safety-slider .owl-next i {
+  font-size: 20px;
+  color: #2e4c62;
+}
+
+.owl-theme .owl-nav [class*="owl-"]:hover {
+  background: none;
+}
+
 .owl-theme .owl-dots .owl-dot span {
   background: transparent !important;
   border: 2px solid #d8d8d8;

@@ -5,8 +5,6 @@ $('.safety-slider').owlCarousel({
     margin:50,
     nav:false,
     dots: true,
-    autoplay: true,
-    autoplayTimeout: 2000,
     responsive:{
         0:{
             items:1
@@ -28,8 +26,6 @@ $('.testimonial-slider').owlCarousel({
     margin:10,
     nav:false,
     dots: true,
-    autoplay: true,
-    autoplayTimeout: 2000,
     items:1,
     navText: [' <i class="fa-solid fa-chevron-left"></i>', ' <i class="fa-solid fa-chevron-right"></i>']
 })

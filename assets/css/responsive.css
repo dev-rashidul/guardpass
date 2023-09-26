@@ -250,6 +250,10 @@
     display: block !important;
   }
 
+  .safety-slider .owl-nav {
+    top: 40%;
+  }
+
   .owl-prev {
     position: absolute;
     left: 0;
@@ -258,6 +262,10 @@
   .owl-next {
     position: absolute;
     right: 40px;
+  }
+
+  .safety-slider .owl-next {
+    right: 0;
   }
 
   .pricing-container {

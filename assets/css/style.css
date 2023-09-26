@@ -701,7 +701,7 @@ Home Page CSS
 .safety-wrapper {
   position: relative;
   padding-top: 100px;
-  margin-bottom: -60px;
+  margin-bottom: -100px;
 }
 
 .safety-top {
@@ -733,6 +733,7 @@ Home Page CSS
 
 .safety-card-icon img {
   max-width: 120px;
+  margin: auto;
   height: 100px;
 }
 
@@ -795,7 +796,8 @@ Home Page CSS
   margin-bottom: 30px;
 }
 
-.owl-dots {
+.testimonial-slider .owl-dots {
+  display: block !important;
   position: absolute;
   left: 53%;
 }

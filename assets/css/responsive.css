@@ -229,7 +229,49 @@
     padding: 150px 0 100px;
   }
 
+  .testimonial-slider {
+    padding: 0 20px;
+  }
+
+  .testimonial-img {
+    max-width: 70%;
+    width: 100%;
+    margin: auto;
+  }
+
+  .owl-dots {
+    display: none;
+  }
+
+  .owl-nav {
+    width: 100%;
+    position: absolute;
+    top: 5%;
+    display: block !important;
+  }
+
+  .owl-prev {
+    position: absolute;
+    left: 0;
+  }
+
+  .owl-next {
+    position: absolute;
+    right: 40px;
+  }
+
+  .owl-prev i,
+  .owl-next i {
+    font-size: 20px;
+    color: #fff;
+  }
+
+  .owl-theme .owl-nav [class*="owl-"]:hover {
+    background: none;
+  }
+
   .pricing-container {
     padding: 40px 10px;
+    margin: 50px 10px 0;
   }
 }

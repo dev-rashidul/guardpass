@@ -7,5 +7,6 @@ $('.owl-carousel').owlCarousel({
     dots: true,
     autoplay: true,
     autoplayTimeout: 2000,
-    items:1
+    items:1,
+    navText: [' <i class="fa-solid fa-chevron-left"></i>', ' <i class="fa-solid fa-chevron-right"></i>']
 })

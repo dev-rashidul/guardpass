@@ -782,13 +782,13 @@ Home Page CSS
   padding: 250px 0 100px;
 }
 
-.testimonial-slide h2 {
+.testimonial-content h2 {
   font-size: 48px;
   color: #ffffff;
   margin-bottom: 25px;
 }
 
-.testimonial-slide p {
+.testimonial-content p {
   font-family: "Space Grotesk", sans-serif;
   font-size: 18px;
   color: #ededed;
@@ -797,7 +797,7 @@ Home Page CSS
 
 .owl-dots {
   position: absolute;
-  left: 0;
+  left: 53%;
 }
 
 .owl-theme .owl-dots .owl-dot span {
